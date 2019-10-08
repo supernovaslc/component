@@ -1,34 +1,4 @@
 <?php
-// // An array that represents a possible record set returned from a database
-// $name = array(
-//   [
-//     'avatarUrl' => 'image/free.png',
-//     'text' => 'My name is QUang'
-//   ],
-// );
-
-// function Avatar($url){
-//   $html='';
-//   $html .= '<img src="'.$url.'" alt="free" />';
-//   return $html;
-// }
-
-// function UserInfo($info){
-//  $infoo = Avatar($info);
-//  $info=
-//  return $infoo;
-// }
-
-// function Show($arr){
-//   foreach ($arr as $key => $value) {
-//     $img = UserInfo($value['avatarUrl']);
-//     //$text= Text($value['text']);
-//   }
-//   print_r($img);
-//   //print_r($text);
-  
-// }
-
 $arr = array(
   [
     'avatarUrl' => 'image/3x4.jpg',
