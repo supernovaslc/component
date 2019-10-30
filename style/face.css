@@ -1,0 +1,49 @@
+*{margin: 0; padding: 0;} 
+
+.thanhxanh {
+    height: 40px;
+    background: #3b5998;
+}
+
+.motphantu {
+    position: relative;
+    float: right;
+    margin-right: 200px;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+
+.tamgiac {
+    color: white;
+    font-size: 20px;
+    transition: 0.4s;
+    color: black;
+
+    cursor: pointer;
+}
+.tamgiactrang {color: white;}
+
+.danhsach {
+    position: absolute;
+    top: 34px;
+    right: -17px;
+    width: 200px;
+    opacity: 1;
+    /* visibility: hidden; */
+}
+.out {
+	opacity: 1; 
+	visibility: visible;
+}
+
+.danhsach:after {content: "";position: absolute;top: -20px;width: 0px;height: 0px;border: 11px rgba(255, 215, 0, 0) solid;border-bottom-color: white;right: 11px;}
+
+li.list-group-item {
+    font-size: 13px;
+    padding: 5px 26px;
+}
+
+li.list-group-item:hover {
+    color: white;
+    background: #3b5998;
+}
