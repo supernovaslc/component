@@ -1,11 +1,11 @@
 *{margin: 0; padding: 0;} 
 
-.thanhxanh {
+.top-facebook {
     height: 40px;
     background: #3b5998;
 }
 
-.motphantu {
+.element {
     position: relative;
     float: right;
     margin-right: 200px;
@@ -13,7 +13,7 @@
     transition: 0.4s;
 }
 
-.tamgiac {
+.triangle {
     color: white;
     font-size: 20px;
     transition: 0.4s;
@@ -23,7 +23,7 @@
 }
 .tamgiactrang {color: white;}
 
-.danhsach {
+.list {
     position: absolute;
     top: 34px;
     right: -17px;
@@ -36,7 +36,16 @@
 	visibility: visible;
 }
 
-.danhsach:after {content: "";position: absolute;top: -20px;width: 0px;height: 0px;border: 11px rgba(255, 215, 0, 0) solid;border-bottom-color: white;right: 11px;}
+.list:after {
+    content: "";
+    position: absolute;
+    top: -16px;
+    width: 0px;
+    height: 0px;
+    border: 6px rgba(255, 215, 0, 0) solid;
+    border-bottom-color: white;
+    right: 17px;
+}
 
 li.list-group-item {
     font-size: 13px;
